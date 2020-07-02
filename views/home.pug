@@ -1,0 +1,40 @@
+extends base.pug
+block scripts
+    script(src="../static/index.js")
+block style
+    style
+        include ../static/style.css
+block content
+         section#introSection
+             div Welcome to Rahul 's  Dance Academy
+             div.small Eat Sleep Dance Repeat
+         section#missionSection
+            h2 our mission
+            div.card
+               h3 Dance Perfection 
+               div.card-box
+                  div.card-img
+                     img(src="../static/image/dance1.jpg")
+                  div.card-content
+                     p this is the dance academy
+            div.card
+               h3 Dance the way you like
+               div.card-box
+                  div.card-img
+                     img(src="../static/image/dance1.jpg")
+                  div.card-content
+                     p this is the dance academy
+            div.card
+               h3 Expert Teaching
+               div.card-box
+                  div.card-img
+                     img(src="../static/image/dance1.jpg")
+                  div.card-content
+                     p this is the dance academy
+         section#sponsorsSection
+            h2 our sponsors
+            div#sponsors
+               img(src="../static/image/client-image1.jpg", alt="Sponsors image", class="spImage")
+               img(src="../static/image/client-image2.png", alt="Sponsors image", class="spImage")
+               img(src="../static/image/client-image5.png", alt="Sponsors image", class="spImage")
+               img(src="../static/image/client-image4.png", alt="Sponsors image", class="spImage")
